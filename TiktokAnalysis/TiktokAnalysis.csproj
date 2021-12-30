@@ -1,0 +1,87 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Content Include="..\..\..\Desktop\TiktokData\Activity\Favorite Effects.txt">
+        <Link>TiktokData\Activity\Favorite Effects.txt</Link>
+      </Content>
+      <Content Include="..\..\..\Desktop\TiktokData\Activity\Favorite HashTags.txt">
+        <Link>TiktokData\Activity\Favorite HashTags.txt</Link>
+      </Content>
+      <Content Include="..\..\..\Desktop\TiktokData\Activity\Favorite Sounds.txt">
+        <Link>TiktokData\Activity\Favorite Sounds.txt</Link>
+      </Content>
+      <Content Include="..\..\..\Desktop\TiktokData\Activity\Favorite Videos.txt">
+        <Link>TiktokData\Activity\Favorite Videos.txt</Link>
+      </Content>
+      <Content Include="..\..\..\Desktop\TiktokData\Activity\Follower.txt">
+        <Link>TiktokData\Activity\Follower.txt</Link>
+      </Content>
+      <Content Include="..\..\..\Desktop\TiktokData\Activity\Following.txt">
+        <Link>TiktokData\Activity\Following.txt</Link>
+      </Content>
+      <Content Include="..\..\..\Desktop\TiktokData\Activity\Hashtag.txt">
+        <Link>TiktokData\Activity\Hashtag.txt</Link>
+      </Content>
+      <Content Include="..\..\..\Desktop\TiktokData\Activity\Likes.txt">
+        <Link>TiktokData\Activity\Likes.txt</Link>
+      </Content>
+      <Content Include="..\..\..\Desktop\TiktokData\Activity\Login History.txt">
+        <Link>TiktokData\Activity\Login History.txt</Link>
+      </Content>
+      <Content Include="..\..\..\Desktop\TiktokData\Activity\Purchases.txt">
+        <Link>TiktokData\Activity\Purchases.txt</Link>
+      </Content>
+      <Content Include="..\..\..\Desktop\TiktokData\Activity\Searches.txt">
+        <Link>TiktokData\Activity\Searches.txt</Link>
+      </Content>
+      <Content Include="..\..\..\Desktop\TiktokData\Activity\Sharing.txt">
+        <Link>TiktokData\Activity\Sharing.txt</Link>
+      </Content>
+      <Content Include="..\..\..\Desktop\TiktokData\Activity\Status.txt">
+        <Link>TiktokData\Activity\Status.txt</Link>
+      </Content>
+      <Content Include="..\..\..\Desktop\TiktokData\Activity\Video Browsing.txt">
+        <Link>TiktokData\Activity\Video Browsing.txt</Link>
+      </Content>
+      <Content Include="..\..\..\Desktop\TiktokData\Ads and data\Ad Interests.txt">
+        <Link>TiktokData\Ads and data\Ad Interests.txt</Link>
+      </Content>
+      <Content Include="..\..\..\Desktop\TiktokData\Ads and data\Ads_Based_On_Data_Received_from_Partners.txt">
+        <Link>TiktokData\Ads and data\Ads_Based_On_Data_Received_from_Partners.txt</Link>
+      </Content>
+      <Content Include="..\..\..\Desktop\TiktokData\Ads and data\Usage_Data_from_Third-party Apps and Websites.txt">
+        <Link>TiktokData\Ads and data\Usage_Data_from_Third-party Apps and Websites.txt</Link>
+      </Content>
+      <Content Include="..\..\..\Desktop\TiktokData\App Settings\Block List.txt">
+        <Link>TiktokData\App Settings\Block List.txt</Link>
+      </Content>
+      <Content Include="..\..\..\Desktop\TiktokData\App Settings\Settings.txt">
+        <Link>TiktokData\App Settings\Settings.txt</Link>
+      </Content>
+      <Content Include="..\..\..\Desktop\TiktokData\Comments\Comments.txt">
+        <Link>TiktokData\Comments\Comments.txt</Link>
+      </Content>
+      <Content Include="..\..\..\Desktop\TiktokData\Direct Messages\Direct Messages.txt">
+        <Link>TiktokData\Direct Messages\Direct Messages.txt</Link>
+      </Content>
+      <Content Include="..\..\..\Desktop\TiktokData\Profile\Profile Info.txt">
+        <Link>TiktokData\Profile\Profile Info.txt</Link>
+      </Content>
+      <Content Include="..\..\..\Desktop\TiktokData\Videos\Videos.txt">
+        <Link>TiktokData\Videos\Videos.txt</Link>
+      </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="HtmlAgilityPack" Version="1.11.39" />
+      <PackageReference Include="Selenium.WebDriver" Version="4.1.0" />
+    </ItemGroup>
+
+</Project>
